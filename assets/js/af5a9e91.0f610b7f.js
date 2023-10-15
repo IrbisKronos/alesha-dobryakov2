@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[50],{866:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/alesha-dobryakov/blog/tags/hello","allTagsPath":"/alesha-dobryakov/blog/tags","count":2}')}}]);
