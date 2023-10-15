@@ -1,0 +1,64 @@
+.features {
+	display: flex;
+	align-items: center;
+	padding: 2rem 0;
+	width: 100%;
+}
+
+.row {
+}
+
+@media (max-width: 992px) {
+	.row {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.leftSection {
+	--ifm-col-width: 23%;
+}
+
+.portraitContainer {
+	text-align: left;
+}
+
+.portraitJpg {
+	max-width: 150px;
+}
+
+.centerSection {
+	--ifm-col-width: 54%;
+}
+
+.titleContainer {
+}
+
+.titleJpg {
+}
+
+.rightSection {
+	--ifm-col-width: 23%;
+}
+
+.camelContainer {
+	text-align: end;
+}
+.camelJpg {
+	max-width: 220px;
+}
+
+.links {
+	min-height: 80px;
+	margin: 2rem 1rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.link {
+	max-width: 200px;
+	text-wrap: wrap;
+	margin: 10px;
+	padding: 10px;
+}
