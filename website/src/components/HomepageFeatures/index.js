@@ -11,29 +11,6 @@ export default function HomepageFeatures() {
 					<div className={clsx("row", styles.row)}>
 						<div className={clsx("col col--4", styles.leftSection)}>
 							<div className={styles.portraitContainer}>
-								<img src={require("@site/static/img/portrait.jpg").default} className={styles.portraitJpg} role="img" />
-							</div>
-						</div>
-
-						<div className={clsx("col col--4", styles.centerSection)}>
-							<div className="text--center">
-								<img src={require("@site/static/img/title.jpg").default} className={styles.titleJpg} role="img" />
-							</div>
-						</div>
-
-						<div className={clsx("col col--4", styles.rightSection)}>
-							<div className={styles.camelContainer}>
-								<img src={require("@site/static/img/camel.jpg").default} className={styles.camelJpg} role="img" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section className={styles.features}>
-				<div className="container">
-					<div className={clsx("row", styles.row)}>
-						<div className={clsx("col col--4", styles.leftSection)}>
-							<div className={styles.portraitContainer}>
 								<img src={require("@site/static/img/1.jpg").default} className={styles.portraitJpg} role="img" />
 								<img src={require("@site/static/img/2.jpg").default} className={styles.portraitJpg} role="img" />
 								<img src={require("@site/static/img/3.jpg").default} className={styles.portraitJpg} role="img" />
@@ -42,6 +19,9 @@ export default function HomepageFeatures() {
 						</div>
 
 						<div className={clsx("col col--4", styles.centerSection)}>
+							<div className={styles.introductionCover}>
+								<a href="@site/docs/category/избранное-в-смысле-отборное"></a>
+							</div>
 							<div className="text--center padding-horiz--md">
 								<p>
 									Алеша Добряков – лирик-сатирик, а также менестрель и философ, и ещё – собиратель песенного фольклора. «ВЕСНА,

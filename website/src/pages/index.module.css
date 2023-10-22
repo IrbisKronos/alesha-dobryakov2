@@ -5,19 +5,27 @@
 
 .heroBanner {
 	min-height: 310px;
+	min-width: 700px;
 	padding: 4rem 0;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
-	background-image: url(@site/static/img/background.jpg);
-	background-size: cover;
-	background-position: center bottom;
+	background: url(@site/static/img/portrait.jpg) left 32px top 32px / 120px no-repeat,
+		url(@site/static/img/title.jpg) center top 32px / 300px no-repeat,
+		url(@site/static/img/camel.jpg) right 22px top 32px / 160px no-repeat,
+		url(@site/static/img/background.jpg) center bottom / cover;
 }
 
 @media screen and (max-width: 996px) {
 	.heroBanner {
 		padding: 2rem;
 	}
+}
+
+.introductionCover {
+	width: 100%;
+	height: 300px;
+	background: url(@site/static/img/portrait.jpg) center top 32px / cover;
 }
 
 .buttons {
